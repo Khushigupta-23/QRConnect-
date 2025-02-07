@@ -24,7 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
         errorMessage.style.display = "none";
         qrContainer.style.display = "block";
 
-        // ✅ Purana QR Code Clear Karo
         qrContainer.innerHTML = "";
 
         qrCode = new QRCode(qrContainer, {

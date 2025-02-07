@@ -69,7 +69,7 @@ button {
 /* 🌟 QR Code Section */
 #qrContainer {
     display: flex;
-    flex-direction: column;  /* 🔥 QR Code Ke Niche Download Button */
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
     gap: 15px; /* 🔥 Spacing Between Elements */

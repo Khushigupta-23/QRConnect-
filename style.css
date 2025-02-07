@@ -1,0 +1,77 @@
+/* 🌟 Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: #f0f5ff; /* Light Blue Background */
+    padding: 20px;
+}
+
+/* 🌟 Container Styling */
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 🌟 Input Field */
+input {
+    width: 90%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #4a90e2; /* Blue Border */
+    border-radius: 6px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #2c6dbc; /* Darker Blue */
+    box-shadow: 0px 0px 8px rgba(44, 109, 188, 0.5);
+}
+
+/* 🌟 Buttons */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Generate Button */
+#generateBtn {
+    background-color: #4a90e2; /* Blue */
+    color: white;
+    margin-top: 10px;
+}
+
+#generateBtn:hover {
+    background-color: #2c6dbc; /* Darker Blue */
+    transform: scale(1.05);
+}
+
+/* Download Button */
+#downloadBtn {
+    background-color: #ff6b6b; /* Coral Red */
+    color: white;
+    margin-top: 15px;
+}
+
+#downloadBtn:hover {
+    background-color: #d94f4f; /* Darker Red */
+    transform: scale(1.05);
+}
+
+/* 🌟 QR Code Section */
+#qrContainer {
+    display: flex;
+    flex-direction: column;  /* 🔥 QR Code Ke Niche Download Button */
+    align-items: center;
+    justify-content: center;
+    gap: 15px; /* 🔥 Spacing Between Elements */
+    margin-top: 20px;
+}

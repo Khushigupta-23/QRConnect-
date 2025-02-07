@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>QR Code Generator (Only for URLs)</h1>
+        <input type="text" id="urlInput" placeholder="Enter a valid URL (e.g., https://example.com)">
+        <button id="generateBtn">Generate QR Code</button>
+        <p id="errorMessage" style="color: red; display: none;">❌ Please enter a valid URL!</p>
+        
+        <div id="qrContainer">
+            <canvas id="qrCanvas"></canvas>
+        </div>
+
+        <!-- ✅ Download Button Directly HTML Me Add Kiya -->
+        <button id="downloadBtn">Download QR Code</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

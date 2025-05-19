@@ -23,5 +23,5 @@ QRConnect is a simple web-based QR code generator that allows users to generate 
   
 - **qrcode.js** - QR Code Library  
 
-
-
+## live demo
+https://khushigupta-23.github.io/QRConnect-/
